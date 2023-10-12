@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.github.kaerum.commander.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "ServerCommandManager_brigadier"
+  ],
+  "client": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

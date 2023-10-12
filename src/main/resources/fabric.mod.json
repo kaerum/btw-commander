@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "btwcommander",
+  "version": "${version}",
+
+  "name": "BTW Commander",
+  "description": "Command handler using Mojang's brigadier command parsing library",
+  "authors": [
+    "Kaerum"
+  ],
+  "license": "MIT",
+  "icon": "assets/btwcommander/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "init": []
+  },
+  "mixins": [
+    "btwcommander.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}
